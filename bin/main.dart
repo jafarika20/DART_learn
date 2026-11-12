@@ -1,4 +1,6 @@
 import 'dart:io' ;
+import 'dart:math' ;
+import 'function.dart';
 void main(){
   /* در این صفحه میخواهم قدم به قدم دارت رو با منابع معتبر یاد بگیرم
   از جمله این منابع میتوان به صفحه رسمی دارت اشاره کرد
@@ -228,5 +230,17 @@ void main(){
   print(search_myfile);
   }
 
+  //just test function in dart 
+  print("="*20);
+  print("تابع تست جمع دو عدد :\t 45 + 7 =${add_number(45,7)}");
+  print("="*20);
+  print(" ضرب دو عدد :\t 5 * 8 = ${mul(5 , 8)}");
+  print("="*20);
+  print("محیط دایره با قطر 10:\n ${mohitDayere(10).toInt()}");
+  print("="*20);
+  print("محاسبه فاکتوریل 6:\n\t ${fact(6)}");
+  print("="*20);
 
+  // just for reverse String
+  String  string_text = 
 }
